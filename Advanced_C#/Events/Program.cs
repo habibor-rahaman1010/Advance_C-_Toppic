@@ -23,7 +23,7 @@ namespace Events
 
             box.Open();
             box.Close();
-            bool result =  box.VideoUploaded();
+            bool? result =  box.VideoUploaded();
             box.Destroy();
 
             Console.WriteLine(result == true ? "Video Published Successfully" : "Video Not Published");
