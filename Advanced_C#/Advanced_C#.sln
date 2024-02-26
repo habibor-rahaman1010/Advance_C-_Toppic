@@ -31,7 +31,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generics", "Generics\Generi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqExample", "LinqExample\LinqExample.csproj", "{0E6BFECF-B9AD-420A-A4F6-058D4F6040C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesExample", "DelegatesExample\DelegatesExample.csproj", "{7C2AC109-CBE2-4510-9E96-332A0B815859}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegatesExample", "DelegatesExample\DelegatesExample.csproj", "{7C2AC109-CBE2-4510-9E96-332A0B815859}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task", "Task\Task.csproj", "{78490037-805F-44FD-AC3B-4C4BD9F84F95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericClassExample", "GenericClassExample\GenericClassExample.csproj", "{7C4A4112-8211-4905-A1E0-BA908AEFDEB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +103,14 @@ Global
 		{7C2AC109-CBE2-4510-9E96-332A0B815859}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C2AC109-CBE2-4510-9E96-332A0B815859}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C2AC109-CBE2-4510-9E96-332A0B815859}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78490037-805F-44FD-AC3B-4C4BD9F84F95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78490037-805F-44FD-AC3B-4C4BD9F84F95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78490037-805F-44FD-AC3B-4C4BD9F84F95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78490037-805F-44FD-AC3B-4C4BD9F84F95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C4A4112-8211-4905-A1E0-BA908AEFDEB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C4A4112-8211-4905-A1E0-BA908AEFDEB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C4A4112-8211-4905-A1E0-BA908AEFDEB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C4A4112-8211-4905-A1E0-BA908AEFDEB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
